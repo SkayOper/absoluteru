@@ -1,0 +1,22 @@
+{
+  "name": "absoluty-scpsl-server",
+  "version": "3.0.0",
+  "description": "SCP:SL Server Monitor для сообщества Абсолютиты с авторизацией через Steam",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.7.0",
+    "passport-steam": "^1.0.18"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
